@@ -6,15 +6,14 @@
 
 .navbar {
     font-size: 20px;
-    /* background-image: white; */
-    background-color: white;
+    background-color: dodgerblue;
     padding-bottom: 10px;
     color: dodgerblue;
 }
 
 /* icon styling */
 .icon-menu {
-    color: dodgerblue;
+    color: white;
     border: none;
     outline-style: none;
 }
@@ -28,7 +27,7 @@
 .nav-links,
 .logo {
     text-decoration: none;
-    color: dodgerblue;
+    color: white;
     display: flex;
 }
 
@@ -94,6 +93,11 @@
     margin-right: 30px;
     flex-direction: row;
     justify-content: flex-end;
+    background-color: dodgerblue;
+    }
+
+    .main-nav .nav-links{
+        margin-left: 10px;
     }
 
     .main-nav li {
@@ -102,6 +106,13 @@
 
     .nav-links {
     margin-left: 40px;
+    }
+
+    .nav-links, .logo {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-left: 10px;
     }
 
     .logo {
